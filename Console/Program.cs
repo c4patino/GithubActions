@@ -86,6 +86,7 @@ public class Program
 	// Implement this method following a similar pattern as above
 	public static double Power(string x, string y)
 	{
+		double result;
 		for(int i = 0; i < double.Parse(y) ; i++){
 			result = result * double.Parse(x);
 		}
